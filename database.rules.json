@@ -1,0 +1,14 @@
+{
+  "rules": {
+    "recipes": {
+      ".write": true,
+      ".read": true
+    },
+    "submissions": {
+      ".write": true,
+      ".read": "auth != null"
+    },
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+}
